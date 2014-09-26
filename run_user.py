@@ -60,6 +60,8 @@ def main(index):
                     for user in np.unique(users):
                         user_stats[user] = np.append(user_stats[user], stat)
                         break
+                elif type == ">90perc":
+                    print("not yet")
 
         if type == "hour_averages":
             for user in user_stats:
